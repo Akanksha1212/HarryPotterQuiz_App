@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hp_quiz/levels.dart';
 import 'quizPage.dart';
 
 class StartPage extends StatelessWidget {
@@ -45,7 +46,7 @@ class StartPage extends StatelessWidget {
                     side: BorderSide(color: Colors.black)),
                 onPressed: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => QuizPage()));
+                      MaterialPageRoute(builder: (context) => Levels()));
                 },
               ),
             )
