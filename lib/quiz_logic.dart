@@ -24,6 +24,18 @@ class QuizLogic {
         'Dexter Fortescue'),
     Question('What does Dumbledore give to Ron in his will?', 'Deluminator',
         'Invisibility cloak', 'Portrait', 'Deluminator', 'Wand'),
+    Question('What position does Harry play on his Quidditch team?', 'Seeker',
+        'Chaser', 'Keeper', 'Bludger', 'Seeker'),
+    Question('Who is Fluffy?', 'Three-headed dog', 'Hagrid\'s Dragon',
+        'Hermoine\'s Cat', 'Three-headed dog', 'Harry\'s Owl'),
+    Question('What does the Imperius Curse do?', 'Controls', 'Tortures',
+        'Invisible', 'Kills', 'Controls'),
+    Question('Who kills Professor Dumbledore?', 'Severus Snape', 'Draco Malfoy',
+        'Fenrir Greyback', 'Bellatrix Lestrange', 'Severus Snape'),
+    Question('Who is Scabbers the rat?', 'Peter Pettigrew', 'Remus Lupin',
+        'Sirius Black', 'Peter Pettigrew', 'Professor Mcgonagall'),
+    Question(' Which is not a method of transport for wizards?', 'Aparecium',
+        'Aparecium', 'Floo Powder', 'Apparition', 'A potkey'),
   ];
 
   String getQuestion() {
